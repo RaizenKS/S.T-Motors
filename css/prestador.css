@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../imagens/bmw\ fundo.jpg") no-repeat
+    center center;
+    background-size: cover;
+    height: 100vh;
+ 
+    
+}
+#mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+    
+.box{
+    margin-top: 10vh;
+    padding: 30px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #23232e;
+    border-radius: 2px;
+   
+}
+
+.title h1{
+    position: relative;
+    bottom: 70px;
+    font-size: 45px;
+color: white;
+}
+
+
+#inputs1{margin-left: 7px; margin-bottom: 5px;}
+
+#inputs1 label, #inputs2 label{
+    color: rgb(233, 231, 231);
+    
+}
+
+#cadastroButton a {margin-left: 20px;}
+.confirm-button button{
+    width: 280px;
+    height: 50px;
+    border: 0px;
+    border-radius: 150px;
+    color: rgb(209, 207, 207);
+    background-color: #23232e;
+    font-size: 15px; 
+    cursor: pointer;
+}
+.confirm-button :hover{
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    background-color:#23232e;
+}
+
+.forgot h4{
+    color: rgb(233, 231, 231);
+}
+
+.forgot button{
+    border: 0px;
+    background-color:#23232e;
+    color: silver;
+    cursor: pointer;
+}
+.forgot button:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: #23232e;
+}
+
+
+

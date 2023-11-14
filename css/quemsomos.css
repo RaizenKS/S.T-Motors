@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow: hidden;  
+    
+}
+#mid{
+    padding: 30px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#div1{
+    width: 600px;
+    height: 20vh;
+}
+
+
+#div1 img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+}
+#div2{
+    text-align: center;
+    color:#23232e;
+    font-size:20px ;
+    background-color: white;
+    border: solid #23232e ;
+    width: 700px;
+    margin: 0px 0px 30px;
+}
+p{
+    text-align: center;
+    color: #23232e;
+    font-size: 20px;
+    background-color: white;
+}

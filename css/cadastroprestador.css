@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: #23232e;
+    height: 50vh;
+    width: 100vw ;
+}
+
+.tela{
+   display: flex;
+   flex-direction: column;
+}
+
+header{
+   
+    text-align: center;
+    margin: 30px;
+}
+
+.label-inputs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin: 40px 20px; 
+}
+
+.linput{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.linput input{
+    color: black;
+    padding-left: 10px;
+    height: 30px;
+    width: 500px;
+}
+.labels-checkbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px 30px 30px 170px;
+    font-size: 20px;
+}
+
+.wash-inputs input{
+    margin-left: 60px;
+    margin-top: 30px;
+    cursor: pointer;
+  appearance: none;
+  width: 70vw;
+  height: 20px;
+  border: 3px solid #23232e;
+  border-radius: 50%;
+  position: relative; 
+   display: flex;
+   flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+.wash-inputs input:before{
+  
+    content: '';
+  width: 70vw;
+  height: 15px;
+  background: #23232e;
+  border-radius: 50%;
+  opacity: 1;
+  transition: all 600ms ease-in-out;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+.wash-inputs input:checked:before {
+    opacity: 0;
+  }
+  
+  .wash-inputs input:focus{
+    box-shadow: 0 0 5px turquoise;
+  }
+
+.wash-inputs label{
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.button-confirm button{
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 70px;
+    width: 71vw;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    border: 0px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.button-confirm button:hover{
+    
+    transition: 1.5s;
+    background-color: #23232e;
+    color: white;
+}
+
+
+
+
+
+
