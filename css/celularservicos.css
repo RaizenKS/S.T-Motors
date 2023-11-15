@@ -1,0 +1,49 @@
+@media screen and (max-width: 750px) and (min-height: 400px){
+    #image-text, #image-text2, #image-text3, #image-text4{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    #mid1, #mid2, #mid3, #mid4{padding: 0px;}
+
+    h5{font-size: 100%; filter: drop-shadow(1px 1px 4px rgb(236, 233, 230));}
+    h4{margin: 20px 20px; font-size: 100%;}
+    h2{margin: 20px 20px; font-size: 200%; }
+    h3{color: #fffffe; font-size: 80%; filter: drop-shadow(1px 1px 4px rgb(255, 145, 0));
+    padding: 10px 0px;}
+
+    #btn-outros, #btn-converse{
+        height: 4vh; 
+        width: 30vw;
+    }
+
+    #s1{ font-size: 120%;
+        color: #fbff00; 
+        font-weight: bold; 
+        filter: drop-shadow(1px 2px 7px rgb(255, 145, 0));
+    }
+    
+    #s2{ font-size: 160%;
+        color: #ee7605; 
+        font-weight: bold; 
+        filter: drop-shadow(1px 2px 7px rgb(255, 176, 6));
+    }
+    
+    #agende{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 30px;
+        background-color: black;
+    }
+    #outros-servicos, #contato{
+        width: 47%; height: 5vh;
+    }
+
+    #outros-servicos, #contato{padding: 0px 0px; border: none;} 
+    #localidade{width: 100%; height: max-content; padding: 0px;}
+
+
+}
+
