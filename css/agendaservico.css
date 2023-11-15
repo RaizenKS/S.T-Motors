@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+
+*{ margin: 0px; padding: 0px; box-sizing: border-box;}
+body{
+    height: 100vh;
+    width: 100vw;   
+    overflow-x: hidden;
+    background-image: url("/image/background.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-color:rgb(0, 0, 0);
+}
+
+#lab-emp{
+    display: none;
+    font-size: 4vw;
+    font-weight: bold;
+    color: rgb(252, 255, 59);
+    text-shadow: 1px 1px 5px rgb(200, 214, 4);
+    margin-bottom: 20px;
+    
+}
+
+#container{
+    color: white;
+    opacity: 0.9;
+    background-color: rgb(0, 0, 0);
+    margin: 5vh 15vw;
+    height: 80%;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
+    padding: 30px;
+    box-shadow: 1px 1px 5px 1px white;
+   
+}
+
+.box image{
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.2s;
+    font-size: 0;
+}
+.box:hover{scale:0.9;}
+
+#box1{background-image: url("../imageAgendaserv/lav-simples.png");}
+#box2{background-image: url("../imageAgendaserv/lav-vapor.jpg");}
+#box3{background-image: url("../imageAgendaserv/Higienizacao-automotiva.png");}
+#box4{background-image: url("../imageAgendaserv/purificacaoar.png");}
+#box5{background-image: url("../imageAgendaserv/snowfoam.jpg");}
+#box6{background-image: url("../imageAgendaserv/lav-seco.png");}
+
+.box::after {
+    content: attr(data-legenda); 
+    position: absolute;
+    top: -30px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white; 
+    padding: 10px 20px; 
+    font-family: 'Kenia', sans-serif;
+    font-size: 3vw; 
+    border-radius: 5px; 
+    white-space: nowrap;
+    display: none; 
+    z-index: 1; 
+}
+
+.box:hover::after { 
+    display: block; 
+    background-color: rgba(0, 0, 0, 0.9); 
+}
+
+#interface2{
+    display: none;
+    grid-template-columns: 1fr ; 
+    gap: 20px;
+    padding: 30px;
+}
+
+
+
+#foto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 3vw;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+#foto img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#agende{
+    height:10vh;
+    width: 50vw;
+    justify-self: center;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(0, 23, 128);
+    font-size:1.5vw;
+    color: white;
+    font-family: sans-serif;
+    transition: 0.2s;
+}
+
+#agende:hover {
+font-size: 1.6vw;
+}
+
+
+#interface3{
+    display: none;
+    padding: 30px;
+    font-size:7vw;
+}
+
+#box-interface3{
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 0.5fr repeat(6, 0.8fr);
+    gap: 20px;
+}
+
+.box-inf3 {
+    display: grid;
+    border: none;
+    grid-template-columns:0.4fr repeat(4, 0.2fr) ;
+    font-size: 2vw;
+    background-color: rgb(148, 154, 160);
+    place-items: center;
+    text-decoration: none;
+}
+
+.hora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    color: black;
+    border: 2px solid black;
+    background-color: rgba(102, 108, 199, 0.164);
+    font-size: 3vw;
+    font-family: sans-serif;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.hora:hover{
+    font-size: 3.1vw;
+    font-style: italic;
+
+}
+
+.box-inf3 h2{
+    color: black;
+}
+
+#interface4{
+    display: none;
+    padding: 10%;
+    gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1.5fr 1fr 1fr 1fr 1.5fr 1.3fr;
+}
+
+#interface4 h2{
+    text-align: center;
+    font-size: 4vw;
+}
+
+#interface4 h3{font-size: 1.7vw; font-weight: lighter;}
+
+#interface4 h4{ font-size: 2vw; font-weight: bold;}
+
+#interface4 button{
+    text-decoration: none;  
+    border: none;
+    cursor: pointer;
+    font-size: 2vw;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+#interface4 button:hover{
+    font-size: 2.3vw;
+}
+  
+#interface5{
+    display: none;
+    padding: 10%;
+    gap: 30px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+#interface5 h2{
+    font-size: 5vw;
+}
+#interface5 h3{
+    font-size: 2vw; font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+

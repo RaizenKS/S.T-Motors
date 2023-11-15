@@ -1,0 +1,88 @@
+@media screen and (max-width: 700px) and (min-height: 400px){
+
+    .box-inf2{font-size: 4vw; grid-template-columns: 0.5fr 0.2fr 1fr;}
+
+    header{ height: 15vh;}
+    #interface2{
+        display: none;
+        font-size:12vw;
+    } 
+    #container{
+        opacity: 1;
+        grid-template-columns: 1fr; 
+        height: 100%; width: 100%; gap: 0px; padding: 0px; margin: 0px; gap: 0px; 
+    }
+    .box::after {
+        font-size: 8vw;
+    }
+
+    #btn-home{ font-size: 30px; }
+
+    #box-interface3{grid-template-rows: 0.5fr repeat(6, 2.6fr);}
+
+    .hora{ width: 100%  }
+
+    #interface4{
+        box-shadow: none;
+    }
+    #interface4 h2{font-size: 6vw;}
+    #interface4 h3{font-size: 3vw;}
+    #interface4 h4{font-size: 3vw;}
+    #container{grid-template-rows: 1fr 1;}
+
+    #interface5 h2{
+        font-size: 5vw;
+    }
+    #interface5 h3{
+        font-size: 3.6vw; font-weight: lighter;
+    }
+    
+}
+
+
+
+
+
+
+@media screen and (max-width: 550px)  and (min-height: 400px){
+
+    .container{grid-template-rows: 1fr;}
+    body{height: 140vh;}
+}
+
+
+
+
+@media screen and (max-width: 450px) and (min-height: 400px){
+
+    body{height: 100vh;}
+    .box-inf2{font-size: 4vw; grid-template-columns: 0.5fr 0.3fr 1fr;}
+    #box-interface2{grid-template-rows: 0.5fr repeat(4, 1.5fr);}
+    #box-interface3{grid-template-rows: 0.5fr repeat(6, 3.2fr)}
+    .hora{font-size: 5vw;}
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 300px) and (min-height: 400px){
+
+    #box-interface3{grid-template-rows: 0.5fr repeat(6, 4fr);}
+
+
+}
+
+
+/*  TELA DEITADA  */
+@media screen and (max-height: 400px){
+body{height: 200vh;}
+}
+
+@media screen and (max-height: 400px){
+    header{height: 20vh;}
+    body{height: 300vh;}
+
+}
