@@ -1,4 +1,4 @@
-@media(max-width:999px){
+@media(max-width:750px){
     /* Para deixar o menu lateral adaptativo */
         .nav-list{
             position: absolute;

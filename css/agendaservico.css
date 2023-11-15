@@ -10,6 +10,7 @@ body{
     background-size: cover;
     background-position: center;
     background-color:rgb(0, 0, 0);
+    
 }
 
 #lab-emp{
@@ -179,7 +180,6 @@ font-size: 1.6vw;
     padding: 10%;
     gap: 30px;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1.5fr 1fr 1fr 1fr 1.5fr 1.3fr;
 }
 
 #interface4 h2{
@@ -198,6 +198,7 @@ font-size: 1.6vw;
     font-size: 2vw;
     transition: 0.2s;
     font-weight: bold;
+    height: 12vh;
 }
 
 #interface4 button:hover{
