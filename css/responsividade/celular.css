@@ -1,0 +1,21 @@
+@media(max-width:750px){
+    /* Para deixar o menu lateral adaptativo */
+   
+    header{display: none;}
+    
+    .nav-list{
+        list-style: none;
+        display: none;
+    }
+            
+        body{
+            overflow-x: hidden;
+            background: url("https://i.pinimg.com/originals/8b/2d/c1/8b2dc19d6521387351460e9b5ba99899.jpg");
+        }
+
+        h1{font-size: 7vw;}
+
+        }
+
+       
+  

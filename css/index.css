@@ -10,7 +10,6 @@ body{
     center center;
     background-size: cover;
     height: 100vh;
-  
 }
 #mid{
     padding: 30px;
@@ -18,5 +17,17 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+
+
+p{
+    text-align: center;
+    color: #23232e;
+    font-size: 20px;
+    background-color: white;
+    border: dashed #23232e 10px ;
+    font-family: 'Inconsolata', monospace;
+    width: 70vw;
 }
 

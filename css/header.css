@@ -2,6 +2,9 @@
 
 *{font-family: 'Montserrat', sans-serif;}
 
+
+header{width: 100vw;}
+
 .logo{
     font-size: 30px;
     text-transform: uppercase;
@@ -26,6 +29,7 @@ nav{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: #23232e;
     height: 8vh;
+    
    
 }
 
@@ -37,28 +41,30 @@ nav{
 /* Tamanho das Letras e espaçamento das Palavras do Menu */
 .nav-list li{
     letter-spacing: 3px;
-    margin-left: 32px;
+    padding: 10px;
+   
 }
 #div1{
     text-align: center;
     color:#23232e;
-    font-size:20px ;
+    font-size:20px;
     background-color: white;
     border: solid #23232e ;
     font-family: 'Inconsolata', monospace;
     width: 700px;
     margin:30px 0px;
 }
-p{
-    text-align: center;
-    color: #23232e;
-    font-size: 20px;
-    background-color: white;
-    border: dashed #23232e 10px ;
-    font-family: 'Inconsolata', monospace;
-    width: 1000px;
 
+
+@media(max-width:750px){
+    .nav-list{
+    list-style: none;
+    display: flex;
 }
+}
+
+
+
 
 
 

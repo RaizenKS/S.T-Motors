@@ -61,9 +61,6 @@ btnAgende.addEventListener("click", function(){
 })
 
 
-
-
-
 //Abaixo interface 3
 hora.forEach((horinha) =>{
 

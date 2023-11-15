@@ -9,7 +9,6 @@ body{
 }
 
 #mid{
-    max-width: 100%;
     display: grid;
     gap: 30px;
     grid-template-rows: 1fr repeat(2, 0.7fr) 0.4fr;
